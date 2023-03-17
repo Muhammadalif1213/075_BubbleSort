@@ -57,3 +57,11 @@ void display() {
 	}
 	cout << endl;								// output baris kosong
 }
+
+int main() {
+	input();			//memanggil procedur input()
+	unsorted();			//Memanggil procedur unsorted()
+	bubbleSortArray();	//Memanggil procedur bubbleSortArray()
+	display();		//Memanggil procedur display()
+	return 0;
+}
